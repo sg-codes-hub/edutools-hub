@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html b:version="2" xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr">
 <head>
-  <title><data:blog.pageTitle/></title>
-  <b:skin><![CDATA[
-/* EduTools Hub theme placeholder */
-  ]]></b:skin>
+<title><data:blog.pageTitle/></title>
+<meta content='width=device-width,initial-scale=1' name='viewport'/>
+<b:skin><![CDATA[
+@import url('css/theme.css');
+]]></b:skin>
 </head>
 <body>
-  <b:section id="main" showaddelement="yes"/>
+<header><h1>EduTools Hub</h1><p>Tools for Teachers & Students</p></header>
+<main><b:section id='main' showaddelement='yes'/></main>
+<footer><p>© EduTools Hub</p></footer>
 </body>
 </html>
